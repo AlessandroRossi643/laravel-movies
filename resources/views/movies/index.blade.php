@@ -5,7 +5,7 @@
 <div class="container">
   <h2>Film disponibili</h2>
   <form class="form-inline my-2 my-lg-0">
-    <a class="btn btn-warning" href="#" role="button">Inserisci film</a>
+    <a class="btn btn-warning" href="{{route('movies.create')}}" role="button">Inserisci film</a>
   </form>
   <div class="container_card">
     @forelse($movies as $movie)
